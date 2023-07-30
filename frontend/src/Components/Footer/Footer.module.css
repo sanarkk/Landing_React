@@ -1,0 +1,20 @@
+.container {
+    max-width: 1180px;
+    margin: 0px auto;
+  }
+
+.footer {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin: 60px 0 0 0;
+  }
+
+  .footer_row {
+    display: flex;
+    border-top: 0.5px solid rgba(161, 161, 161, 0.727);
+    padding: 10px 0 0 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }

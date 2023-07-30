@@ -1,0 +1,10 @@
+.footer_links{
+    display: flex;
+    justify-content: row;
+  }
+
+.link {
+    font-size: 14px;
+    color: rgba(189, 189, 189, 0.652);
+    margin: 0px 11px 0px 11px;
+  }
