@@ -1,0 +1,18 @@
+.container {
+  max-width: 1180px;
+  margin: 0px auto;
+}
+
+.intro {
+  width: 100%;
+  padding: 70px;
+}
+
+.intro_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 200px;
+  border-bottom: 0.5px solid rgba(161, 161, 161, 0.727);
+}

@@ -1,23 +1,23 @@
 .logo {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 .link_logo {
-    font-size: 16px;
-    color: white;
-    margin: 0 5px 0 0;
-  }
+  font-size: 16px;
+  color: white;
+  margin: 0 5px 0 0;
+}
 
 .logo_beta {
-    font-size: 8px;
-    color: white;
-    opacity: 25%;
-    padding: 3px;
-    border: 1px dashed white;
-    border-radius: 8px;
-    letter-spacing: 1.3px;
-    user-select: none;
-  }
+  font-size: 8px;
+  color: white;
+  opacity: 25%;
+  padding: 3px;
+  border: 1px dashed white;
+  border-radius: 8px;
+  letter-spacing: 1.3px;
+  user-select: none;
+}

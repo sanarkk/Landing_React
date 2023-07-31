@@ -1,0 +1,42 @@
+.features_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.features_title {
+  margin-top: 130px;
+  line-height: 1.5;
+}
+
+.title {
+  display: flex;
+  text-align: center;
+  font-size: 48px;
+  background: radial-gradient(
+    circle,
+    #ffffff,
+    #d6d6d6,
+    #afafaf,
+    #8a8a8a,
+    #666666
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.description {
+  display: flex;
+  font-size: 20px;
+  color: rgba(189, 189, 189, 0.652);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.features_description {
+  margin: 30px 0 0 0;
+  text-align: center;
+}

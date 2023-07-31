@@ -1,0 +1,13 @@
+.intro_companies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.intro_companies div {
+  margin: -20px;
+  padding: 20px 10px;
+}

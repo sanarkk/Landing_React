@@ -1,0 +1,24 @@
+.description {
+  display: flex;
+  font-size: 20px;
+  color: rgba(189, 189, 189, 0.652);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.highlight {
+    display: flex;
+    font-size: 16px;
+    flex-direction: row;
+    align-items: baseline;
+    width: 350px;
+  }
+
+.highlight_image img {
+  padding: 5px 12px;
+}
+
+.highlight_bold {
+  color: white;
+  font-weight: 300;
+}

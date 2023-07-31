@@ -1,0 +1,65 @@
+.title {
+  display: flex;
+  text-align: center;
+  font-size: 48px;
+  background: radial-gradient(
+    circle,
+    #ffffff,
+    #d6d6d6,
+    #afafaf,
+    #8a8a8a,
+    #666666
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.description {
+  display: flex;
+  font-size: 20px;
+  color: rgba(189, 189, 189, 0.652);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.features_panorama_row {
+  margin: 50px 0 0 0;
+  background-color: rgb(10, 10, 10);
+  border-radius: 35px;
+  border: 1px solid rgb(95, 95, 95);
+  box-shadow: 0px 0px 4px rgba(139, 139, 139, 0.854);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.features_panorama_text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 0px 180px 60px;
+}
+.features_panorama_text div {
+  text-align: left;
+}
+.features_panorama_title {
+  display: flex;
+  font-size: 28px;
+}
+
+.features_panorama_description {
+  font-size: 16px;
+  margin: 10px 0 0 0;
+}
+
+.features_panorama_image {
+  display: flex;
+  justify-content: center;
+}
+
+.features_panorama_image img {
+  width: 100%;
+}

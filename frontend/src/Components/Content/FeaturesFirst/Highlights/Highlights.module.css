@@ -1,0 +1,7 @@
+.features_highlights_row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 40px 0 150px 0;
+  flex: 1 1 30%;
+}

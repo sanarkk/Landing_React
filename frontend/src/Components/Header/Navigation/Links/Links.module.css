@@ -1,19 +1,19 @@
 .header_links {
-    display: flex;
-    justify-content: row;
+  display: flex;
+  justify-content: row;
 }
 
 .link {
-    font-size: 14px;
-    color: rgba(189, 189, 189, 0.652);
-    margin: 0px 11px 0px 11px;
+  font-size: 14px;
+  color: rgba(189, 189, 189, 0.652);
+  margin: 0px 11px 0px 11px;
 }
 
 .header_links a:hover {
-    transform: scale(1.05);
-    transition: 0.25s;
-  }
-  
-  .header_links a:last-child {
-    margin: 0px 0px 0px 11px;
-  }
+  transform: scale(1.05);
+  transition: 0.25s;
+}
+
+.header_links a:last-child {
+  margin: 0px 0px 0px 11px;
+}
