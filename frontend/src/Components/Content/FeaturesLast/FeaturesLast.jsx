@@ -1,10 +1,9 @@
 import React from "react";
-import css from "./FeaturesFirst.module.css";
-import Panorama from "./Panorama/Panorama";
-import Cards from "./Cards/Cards";
-import Highlights from "./Highlights/Highlights";
+import css from "../FeaturesFirst/FeaturesFirst.module.css";
+import Cards from "../FeaturesFirst/Cards/Cards";
+import Highlights from "../FeaturesFirst/Highlights/Highlights";
 
-const FeaturesFirst = (props) => {
+const FeaturesLast = (props) => {
   return (
     <div className={css.features_row} id="intro">
       <div className={css.features_title + " " + css.title}>
@@ -13,12 +12,6 @@ const FeaturesFirst = (props) => {
       <div class={css.features_description + " " + css.description}>
         <p>{props.webData.mainDescription}</p>
       </div>
-      <Panorama
-        panTitle={props.webData.panTitle}
-        panDescription={props.webData.panDescription}
-        panImage={props.webData.panImage}
-        mediaPanImage={props.webData.mediaPanImage}
-      />
       <Cards
         titleCardOne={props.webData.titleCardOne}
         descriptionCardOne={props.webData.descriptionCardOne}
@@ -42,4 +35,4 @@ const FeaturesFirst = (props) => {
   );
 };
 
-export default FeaturesFirst;
+export default FeaturesLast;

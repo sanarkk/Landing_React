@@ -1,27 +1,24 @@
 import React from "react";
 import Highlight from "./Highlight/Highlight";
 import css from "./Highlights.module.css";
-import HighlightImage1 from "../../../../Images/icon_1.svg";
-import HighlightImage2 from "../../../../Images/icon_2.svg";
-import HighlightImage3 from "../../../../Images/icon_3.svg";
 
-const Highlights = () => {
+const Highlights = (props) => {
   return (
     <div className={css.features_highlights_row}>
       <Highlight
-        image={HighlightImage1}
-        title="Remember anything."
-        description=" Instantly. And without the cognitive overload."
+        image={props.highlightImageOne}
+        title={props.highlightTitleOne}
+        description={props.highlightDescriptionOne}
       />
       <Highlight
-        image={HighlightImage2}
-        title="Simple to use."
-        description=" Having the perfect answer is just a question away."
+        image={props.highlightImageTwo}
+        title={props.highlightTitleTwo}
+        description={props.highlightDescriptionTwo}
       />
       <Highlight
-        image={HighlightImage3}
-        title="Easy to set up."
-        description=" Connect your tools in seconds. It’s zero upkeep form here."
+        image={props.highlightImageThree}
+        title={props.highlightTitleThree}
+        description={props.highlightDescriptionThree}
       />
     </div>
   );
