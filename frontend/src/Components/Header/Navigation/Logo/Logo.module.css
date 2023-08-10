@@ -31,3 +31,9 @@
   letter-spacing: 1.3px;
   user-select: none;
 }
+
+@media screen and (max-width: 767px) {
+  .header_border {
+    border: 0px;
+  }
+}

@@ -18,3 +18,27 @@
   align-items: center;
   margin-top: 5px;
 }
+
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 350px;
+  }
+  .footer_row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

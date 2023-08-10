@@ -7,12 +7,12 @@
 }
 
 .highlight {
-    display: flex;
-    font-size: 16px;
-    flex-direction: row;
-    align-items: baseline;
-    width: 350px;
-  }
+  display: flex;
+  font-size: 16px;
+  flex-direction: row;
+  align-items: baseline;
+  width: 350px;
+}
 
 .highlight_image img {
   padding: 5px 12px;
@@ -21,4 +21,11 @@
 .highlight_bold {
   color: white;
   font-weight: 300;
+}
+
+@media screen and (max-width: 992px) {
+  .highlight_image {
+    align-items: center;
+    justify-content: center;
+  }
 }

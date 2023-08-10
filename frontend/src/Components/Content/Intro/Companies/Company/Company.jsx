@@ -1,8 +1,9 @@
 import React from "react";
+import css from "./Company.module.css";
 
 const Company = (props) => {
   return (
-    <div>
+    <div className={css.company}>
       <img src={props.company} alt="" />
     </div>
   );

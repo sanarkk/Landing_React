@@ -17,3 +17,9 @@
 .header_links a:last-child {
   margin: 0px 0px 0px 11px;
 }
+
+@media screen and (max-width: 767px) {
+  .header_links {
+    display: none;
+  }
+}

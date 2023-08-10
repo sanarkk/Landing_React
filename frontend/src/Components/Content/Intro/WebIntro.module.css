@@ -116,3 +116,39 @@
   font-size: 16px;
   margin: 15px 0 0 0;
 }
+
+@media screen and (max-width: 992px) {
+  .intro_row {
+    border: 0px;
+    padding-bottom: 0px;
+  }
+
+  .intro_title {
+    margin-top: -60px;
+    line-height: 1.3;
+    font-weight: 500;
+    font-size: 56px;
+  }
+
+  .br_title {
+    display: block;
+    height: 1px;
+    width: 1px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro_title {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro_button button {
+    font-size: 16px;
+    padding: 13px 16px;
+  }
+  .intro_image {
+    margin: 50px 0 0 0;
+  }
+}

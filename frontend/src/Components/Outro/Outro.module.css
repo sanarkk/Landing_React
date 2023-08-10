@@ -1,11 +1,11 @@
+.outro {
+  margin: 160px 0 0 0;
+  width: 100%;
+}
+
 .container {
   max-width: 1180px;
   margin: 0px auto;
-}
-
-.intro {
-  width: 100%;
-  padding: 70px;
 }
 
 @media screen and (max-width: 1400px) {

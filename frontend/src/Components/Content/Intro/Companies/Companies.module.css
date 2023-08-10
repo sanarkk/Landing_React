@@ -11,3 +11,24 @@
   margin: -20px;
   padding: 20px 10px;
 }
+@media screen and (max-width: 992px) {
+  .intro_companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 30px 0 0 0;
+  }
+  .features_card {
+    margin: 0 0 40px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro_companies {
+    grid-template-columns: 1fr 1fr;
+  }
+  .company img {
+    width: 153px;
+  }
+}
