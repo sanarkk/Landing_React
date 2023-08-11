@@ -16,7 +16,7 @@ const Panorama = (props) => {
       </div>
       <div className={css.features_panorama_image}>
         <picture>
-          <source media="(max-width: 992px)" srcset={props.mediaPanImage} />
+          <source media="(max-width: 992px)" srcSet={props.mediaPanImage} />
           <img src={props.panImage} alt="" />
         </picture>
       </div>

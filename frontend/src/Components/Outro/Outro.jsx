@@ -4,8 +4,8 @@ import OutroContent from "./OutroContent/OutroContent";
 
 const Outro = () => {
   return (
-    <div class={css.outro}>
-      <div class={css.container}>
+    <div className={css.outro}>
+      <div className={css.container}>
         <OutroContent />
       </div>
     </div>

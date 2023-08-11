@@ -10,7 +10,7 @@ const FeaturesFirst = (props) => {
       <div className={css.features_title + " " + css.title}>
         <p>{props.webData.mainTitle}</p>
       </div>
-      <div class={css.features_description + " " + css.description}>
+      <div className={css.features_description + " " + css.description}>
         <p>{props.webData.mainDescription}</p>
       </div>
       <Panorama

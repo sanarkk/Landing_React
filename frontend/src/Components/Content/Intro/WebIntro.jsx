@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Companies from "./Companies/Companies";
 import css from "./WebIntro.module.css";
+import Modal from "../../Header/Dropdown/Modal/Modal";
 
 const WebIntro = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className={css.intro_row}>
       <div className={css.intro_title}>
@@ -17,7 +19,15 @@ const WebIntro = () => {
         and quit manual organization for good.
       </div>
       <div className={css.intro_button}>
-        <button>GET STARTED FOR FREE</button>
+        <button className={css.web_button} onClick={() => setIsOpen(true)}>
+          GET STARTED FOR FREE
+        </button>
+        <Modal open={isOpen} onClose={() => setIsOpen(false)}>
+          You have a good opportunity to become a member of our software. Our
+          products provide people options which will make your life easier.
+          Getting started for free is a good point where you can start and try
+          our product, but so far it's not available.
+        </Modal>
       </div>
       <div className={css.intro_image}>
         <img
